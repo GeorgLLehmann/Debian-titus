@@ -9,7 +9,7 @@ username=$(id -u -n 1000)
 builddir=$(pwd)
 
 # Add Custom Titus Rofi Deb Package
-dpkg -i 'Custom Packages/rofi_1.7.0-1_amd64.deb'
+# dpkg -i 'Custom Packages/rofi_1.7.0-1_amd64.deb'
 
 # Update packages list
 apt update
@@ -17,7 +17,7 @@ apt update
 # Add base packages
 apt install unzip picom bspwm polybar sddm rofi kitty thunar flameshot neofetch sxhkd git lxpolkit lxappearance xorg yad pulseaudio pavucontrol dunst redshift -y
 apt install papirus-icon-theme feh lxappearance fonts-noto-color-emoji fonts-firacode fonts-font-awesome libqt5svg5 qml-module-qtquick-controls qml-module-qtquick-controls2 -y
-
+apt install nala libx11-dev libxinerama-dev libxft-dev neovim ufw rofi firefox firefox-l10n-de thunderbird thunderbird-l10n-de fonts-roboto fish -y
 # Download Nordic Theme
 cd /usr/share/themes/
 git clone https://github.com/EliverLara/Nordic.git
@@ -39,4 +39,4 @@ cp -R dotfiles/* /home/$username/.config/
 cp background.jpg /home/$username/Pictures/
 chown -R $username:$username /home/$username
 tar -xzvf sugar-candy.tar.gz -C /usr/share/sddm/themes
-cp dotfiles/sddm.conf /etc/sddm.conf 
+cp dotfiles/sddm.conf /etc/sddm.conf

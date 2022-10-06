@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Appearance pacakges
+# Appearance packages
 
 #Ms-fonts
 sudo apt install ttf-mscorefonts-installer
