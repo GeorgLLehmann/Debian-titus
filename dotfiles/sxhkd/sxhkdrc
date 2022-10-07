@@ -19,10 +19,14 @@ super + b
 	firefox
 
 super + p
-	flameshot full -p ~/Pictures/Screenshots
+	flameshot full -p ~/Pictures/screenshots
 
 super + shift + p
-	flameshot gui -p ~/Pictures/Screenshots
+	flameshot gui -p ~/Pictures/screenshots
+
+# Lock screen
+super + shift + l
+	i3lock -u -i ~/Pictures/utils/lock.png
 
 #
 # bspwm hotkeys
