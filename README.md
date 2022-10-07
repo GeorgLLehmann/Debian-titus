@@ -1,4 +1,6 @@
 # *Disclaimer:* For now, this fork is meant for my personal use only. So the commits have very limited quality control and can introduce bugs. You are free to use it, of course, in accordance with the license.
+## I would also like to thank Chris Titus for his absolutely awesome work.
+
 
 # Debian-titus
 Debian customizations from Chris Titus Tech
